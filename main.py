@@ -119,6 +119,7 @@ print("Resumen de intentos:")
 intento = 1
 for p in puntajes:
   print("\tIntento {}: {} puntos".format(intento,p))
+  intento += 1
 
 print("Gracias por jugar")
 print("Hasta la proxima")
